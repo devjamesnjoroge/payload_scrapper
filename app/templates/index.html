@@ -1,0 +1,15 @@
+<<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h1>APP IS WORKING: {{ name[1] }}</h1>
+    {% for source in name[1] %}
+
+    <img src="https://gaming.betsafe.co.ke{{ source['src'] }}" alt="img">
+
+    {% endfor %}
+  </body>
+</html>
